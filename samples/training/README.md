@@ -1,14 +1,13 @@
-# EC2 Examples
-EC2 Examples. 
+# Java on EC2 using AWS Developer Tools
 
 Copy the contents of this folder and its subfolders to the CodeCommit repo 
 
 # Overview
-This repo is a demonstration of Continuous Delivery of a static website to EC2 instances via CodePipeline, CodeCommit, CodeBuild, and CodeDeploy. Ensure you've configured the [Prerequisites](https://github.com/stelligent/devops-essentials/wiki/Prerequisites) before launching the stack below.
+This repo is a demonstration of Continuous Delivery of a Java application to EC2 instances via CodePipeline, CodeCommit, CodeBuild, and CodeDeploy. Ensure you've configured the [Prerequisites](https://github.com/stelligent/devops-essentials/wiki/Prerequisites) before launching the stack below.
 
 # Launch Stack
 
-[![Launch CFN stack](https://s3.amazonaws.com/cloudformation-examples/cloudformation-launch-stack.png](https://console.aws.amazon.com/cloudformation/home?region=us-east-1#cstack=sn%7Edevops-essentials-ec2%7Cturl%7Ehttps://s3.amazonaws.com/www.devopsessentialsaws.com/samples/ec2/pipeline.yml)
+[![Launch CFN stack](https://s3.amazonaws.com/cloudformation-examples/cloudformation-launch-stack.png)](https://console.aws.amazon.com/cloudformation/home?region=us-east-1#cstack=sn%7Edevops-ess-prod-java%7Cturl%7Ehttps://s3.amazonaws.com/www.devopsessentialsaws.com/samples/training/pipeline.yml)
 
 # Configure Solution
 
@@ -26,4 +25,4 @@ This repo is a demonstration of Continuous Delivery of a static website to EC2 i
 
 # Resources
 
-1. The CloudFormation template is available [here](https://s3.amazonaws.com/www.devopsessentialsaws.com/samples/ec2/pipeline.yml).
+1. The CloudFormation template is available [here](https://s3.amazonaws.com/www.devopsessentialsaws.com/samples/training/pipeline.yml).
